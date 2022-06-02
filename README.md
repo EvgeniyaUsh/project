@@ -32,3 +32,4 @@ Social Network
     "access": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjU0Mjg4MTI5LCJpYXQiOjE2NTQyMDE3MjksImp0aSI6IjczOTRkNzVlZjZmOTRiYjhiMjU2OWU1ZTk2NzQyNDk1IiwidXNlcl9pZCI6NX0.wyDh4bylcOSCCu3rk5SwuTLknoZTvsbNclTPmC9miZw"
 }
 
+где access токен будет использовать для создания/редактирования постов (post/patch запросов) по урле http://127.0.0.1:8000/api/posts/
