@@ -4,7 +4,6 @@ from rest_framework import serializers
 from api.models import Post
 
 
-# Register serializer
 class RegisterSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
@@ -19,7 +18,6 @@ class RegisterSerializer(serializers.ModelSerializer):
         return user
 
 
-# User serializer
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
